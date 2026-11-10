@@ -1,0 +1,6 @@
+﻿store,city,known_total_cny,missing_amount_count,finance_only_count,feishu_only_count,is_complete
+Teaheart KSL City JB,Johor Bahru,42200.00,0,0,0,true
+Teaheart Taidong 台东店,Qingdao,32400.00,0,0,0,true
+Teaheart Wulin 武林店,Hangzhou,11500.00,1,0,0,false
+Teaheart Xinjiekou 新街口店,Nanjing,8900.00,0,1,1,false
+Zhongshan Rd 中山路店,Xiamen,115500.00,0,0,0,true

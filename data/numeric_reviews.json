@@ -1,0 +1,80 @@
+{
+  "EQ-01": {
+    "source_sha256": "da4c16b9e1d3c6f4fe7d9c1df2117620b343a1240e39218e724929ce9f2a3827",
+    "summary_sha256": "a1efc34bf3afa0495df957179396e3e2667993b0b7f5f6061bf1c875a3fae613",
+    "unmatched": {},
+    "semantic_note": "Two sentences checked; about 70% applies to no-sugar cups, and delivery deadline and menu request are retained."
+  },
+  "EQ-02": {
+    "source_sha256": "331171b1a0d91c9ea7f2c1023d63b268e1fb8d6feaa061eac4d0dc1a2bc01fbc",
+    "summary_sha256": "dc24431497b6022bb68394b7570338a7e14c45ea0ddb0d651089b12e008e03c9",
+    "unmatched": {},
+    "semantic_note": "Two sentences checked; daily quantity, service dates, total budget and confirmation deadline are distinct."
+  },
+  "EQ-03": {
+    "source_sha256": "dc1b95d98c1cf88effba52ee3a8b4c310d2288a933a410066a0d105f2bf187a2",
+    "summary_sha256": "aab4373bf76ac50e3806a0ef4860cf18f7a197e739433950b1d48c0be9d5d036",
+    "unmatched": {
+      "2.2 million": "conversion: 220 万元 equals RMB 2,200,000, or RMB 2.2 million; valid quantity-scale conversion, but not a direct source expression"
+    },
+    "semantic_note": "Two sentences checked; distinguishes the 15-store ambition from the initial 3 stores and retains the initial site's area, rent and budget."
+  },
+  "EQ-04": {
+    "source_sha256": "3004b055a469acf3a3eca0d41fef878f397ea91582dad3f29f7690e42f416a76",
+    "summary_sha256": "a2fc72a4c6dbac77131807bece6d602ad6d13925708cac75954f397c59cf9503",
+    "unmatched": {},
+    "semantic_note": "Two sentences checked; headcount is not yet confirmed, and Nongsa delivery is a question rather than a promise."
+  },
+  "EQ-05": {
+    "source_sha256": "c7f0d408c86ae9d6cf0694748d097b75de4ab010a133fd8ae362306f903ab90a",
+    "summary_sha256": "56d29456c9e1b29c470036c49445ddab41376f091c2e284c10eff7d6cd7d6fc3",
+    "unmatched": {},
+    "semantic_note": "Two sentences checked; annual discount, fat percentage and minimum protein content are distinct; no discounted price is invented."
+  },
+  "EQ-06": {
+    "source_sha256": "5549244d0c4f685806dc030ec4fdfeefc78f823f02179d2f82465261378358b5",
+    "summary_sha256": "2971e6baa5e20d96dea393054acd47511d4ca67d6523790ffbd746807d523b08",
+    "unmatched": {
+      "96": "derived: 8 trays multiplied by 12 cups per tray equals 96 cups per delivery; arithmetic is valid but 96 is not directly stated"
+    },
+    "semantic_note": "Two sentences checked; the computed 96 is explicitly described as equivalent to 8 trays of 12, not quoted as a source number."
+  },
+  "EQ-07": {
+    "source_sha256": "92640173742bb2ceb50948727fc62ec326eee7af97e42fb482704959582241b7",
+    "summary_sha256": "07b682144491acfdf92c8712355f8a4de7a90f188afba3e32b31e6e3a6895cda",
+    "unmatched": {},
+    "semantic_note": "Two sentences checked; 5 is for management on the initial day, while 50 belongs to a later celebration with no fixed date."
+  },
+  "EQ-08": {
+    "source_sha256": "721af5a515580444be00da09048e4275b758a9becb396a67c9e6e109cfddd163",
+    "summary_sha256": "94004e3342dd8435487d426a8d500577dbc3d61ce4dd78ec40edf0334c8e3145",
+    "unmatched": {},
+    "semantic_note": "Two sentences checked; 600 sales refers to all food-court stalls, not expected Teaheart sales."
+  },
+  "EQ-09": {
+    "source_sha256": "696de954887f2c711fada8e7d90fc5925b05f160d36378c7f43fa148ee467b18",
+    "summary_sha256": "335987802c0243f2fb9fc91184671172d04ba4d9785bd470a65d569c84c4704f",
+    "unmatched": {},
+    "semantic_note": "Two sentences checked; 2,000 daily cups remains the prospect's estimate; sugar must be strictly below 35 g and opening before March 2027."
+  },
+  "EQ-10": {
+    "source_sha256": "52246515e2b6f3adab88c57ac78a5038da6b7105cc6faed97fe875a9ef70b75c",
+    "summary_sha256": "96aa58b8660d8cdcfc9776e3dfce3e3cb1a8f4ca2901b7e0661750d574120ff0",
+    "unmatched": {},
+    "semantic_note": "Two sentences checked; PHP 1.2 million is the initial-store budget, not a budget for all 30 stores."
+  },
+  "EQ-11": {
+    "source_sha256": "2e62cc4eaada17512501d6afa1cb99b4da23943f751484506bc6831a33068bb7",
+    "summary_sha256": "e49c7a39b270301dd2cc91221b973e292c122d6e59d78ffafc4163c23776baff",
+    "unmatched": {},
+    "semantic_note": "Two sentences checked; USD 150,000 is the stated budget for the two counters and at least 25 cups/hour applies to each counter."
+  },
+  "EQ-12": {
+    "source_sha256": "5ecb98d23ca92e07afd6f91c51bdc9b4200b45d601068621512b92dce8232ad3",
+    "summary_sha256": "703b291ae14c8267abf731a921d7678ef55aa5da17552f1eabd2e03eb2727e95",
+    "unmatched": {
+      "100": "derived: about 2,000 daily cups multiplied by about 5% implies about 100 samples per day; approximate, not a monthly total or a cost quote"
+    },
+    "semantic_note": "Two sentences checked; 100 samples/day is approximate and derived; no 30-day-month assumption or campaign cost is invented."
+  }
+}

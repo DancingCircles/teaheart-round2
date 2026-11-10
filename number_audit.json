@@ -1,0 +1,1831 @@
+{
+  "EQ-01": {
+    "source_text": "Drinks for a staff event\nWe need 120 cups for a staff event on 28 Oct, about 70% of them with no sugar. Budget is VND 8,400,000. Please deliver to Building 3 by 14:30 and send a menu with prices.",
+    "summary": "The customer requests 120 cups for a staff event on 28 Oct, with about 70% having no sugar and a budget of VND 8,400,000. Delivery is requested to Building 3 by 14:30, together with a menu showing prices.",
+    "check_passed": true,
+    "source_tokens": [
+      {
+        "raw": "120",
+        "start": 33,
+        "end": 36,
+        "key": [
+          "number",
+          "120"
+        ]
+      },
+      {
+        "raw": "28 Oct",
+        "start": 63,
+        "end": 69,
+        "key": [
+          "partial_date",
+          "10-28"
+        ]
+      },
+      {
+        "raw": "70%",
+        "start": 77,
+        "end": 80,
+        "key": [
+          "percent",
+          "70"
+        ]
+      },
+      {
+        "raw": "8,400,000",
+        "start": 118,
+        "end": 127,
+        "key": [
+          "number",
+          "8400000"
+        ]
+      },
+      {
+        "raw": "3",
+        "start": 156,
+        "end": 157,
+        "key": [
+          "number",
+          "3"
+        ]
+      },
+      {
+        "raw": "14:30",
+        "start": 161,
+        "end": 166,
+        "key": [
+          "time",
+          "14:30"
+        ]
+      }
+    ],
+    "summary_tokens": [
+      {
+        "raw": "120",
+        "start": 22,
+        "end": 25,
+        "key": [
+          "number",
+          "120"
+        ],
+        "supported": true,
+        "evidence": [
+          {
+            "raw": "120",
+            "start": 33,
+            "end": 36,
+            "key": [
+              "number",
+              "120"
+            ]
+          }
+        ]
+      },
+      {
+        "raw": "28 Oct",
+        "start": 52,
+        "end": 58,
+        "key": [
+          "partial_date",
+          "10-28"
+        ],
+        "supported": true,
+        "evidence": [
+          {
+            "raw": "28 Oct",
+            "start": 63,
+            "end": 69,
+            "key": [
+              "partial_date",
+              "10-28"
+            ]
+          }
+        ]
+      },
+      {
+        "raw": "70%",
+        "start": 71,
+        "end": 74,
+        "key": [
+          "percent",
+          "70"
+        ],
+        "supported": true,
+        "evidence": [
+          {
+            "raw": "70%",
+            "start": 77,
+            "end": 80,
+            "key": [
+              "percent",
+              "70"
+            ]
+          }
+        ]
+      },
+      {
+        "raw": "8,400,000",
+        "start": 111,
+        "end": 120,
+        "key": [
+          "number",
+          "8400000"
+        ],
+        "supported": true,
+        "evidence": [
+          {
+            "raw": "8,400,000",
+            "start": 118,
+            "end": 127,
+            "key": [
+              "number",
+              "8400000"
+            ]
+          }
+        ]
+      },
+      {
+        "raw": "3",
+        "start": 156,
+        "end": 157,
+        "key": [
+          "number",
+          "3"
+        ],
+        "supported": true,
+        "evidence": [
+          {
+            "raw": "3",
+            "start": 156,
+            "end": 157,
+            "key": [
+              "number",
+              "3"
+            ]
+          }
+        ]
+      },
+      {
+        "raw": "14:30",
+        "start": 161,
+        "end": 166,
+        "key": [
+          "time",
+          "14:30"
+        ],
+        "supported": true,
+        "evidence": [
+          {
+            "raw": "14:30",
+            "start": 161,
+            "end": 166,
+            "key": [
+              "time",
+              "14:30"
+            ]
+          }
+        ]
+      }
+    ],
+    "unmatched": [],
+    "manual_review": {
+      "source_sha256": "da4c16b9e1d3c6f4fe7d9c1df2117620b343a1240e39218e724929ce9f2a3827",
+      "summary_sha256": "a1efc34bf3afa0495df957179396e3e2667993b0b7f5f6061bf1c875a3fae613",
+      "unmatched": {},
+      "semantic_note": "Two sentences checked; about 70% applies to no-sugar cups, and delivery deadline and menu request are retained."
+    },
+    "evidence_scope": "subject + body only"
+  },
+  "EQ-02": {
+    "source_text": "Daily order for sports week\nWe want about 40 cups a day for 5 days, 20 Oct to 24 Oct, total budget MYR 1,800. Please confirm before 15 Oct so we can tell parents.",
+    "summary": "The customer requests about 40 cups per day for 5 days, from 20 Oct to 24 Oct, with a total budget of MYR 1,800. Confirmation is needed before 15 Oct so parents can be informed.",
+    "check_passed": true,
+    "source_tokens": [
+      {
+        "raw": "40",
+        "start": 42,
+        "end": 44,
+        "key": [
+          "number",
+          "40"
+        ]
+      },
+      {
+        "raw": "5",
+        "start": 60,
+        "end": 61,
+        "key": [
+          "number",
+          "5"
+        ]
+      },
+      {
+        "raw": "20 Oct",
+        "start": 68,
+        "end": 74,
+        "key": [
+          "partial_date",
+          "10-20"
+        ]
+      },
+      {
+        "raw": "24 Oct",
+        "start": 78,
+        "end": 84,
+        "key": [
+          "partial_date",
+          "10-24"
+        ]
+      },
+      {
+        "raw": "1,800",
+        "start": 103,
+        "end": 108,
+        "key": [
+          "number",
+          "1800"
+        ]
+      },
+      {
+        "raw": "15 Oct",
+        "start": 132,
+        "end": 138,
+        "key": [
+          "partial_date",
+          "10-15"
+        ]
+      }
+    ],
+    "summary_tokens": [
+      {
+        "raw": "40",
+        "start": 28,
+        "end": 30,
+        "key": [
+          "number",
+          "40"
+        ],
+        "supported": true,
+        "evidence": [
+          {
+            "raw": "40",
+            "start": 42,
+            "end": 44,
+            "key": [
+              "number",
+              "40"
+            ]
+          }
+        ]
+      },
+      {
+        "raw": "5",
+        "start": 48,
+        "end": 49,
+        "key": [
+          "number",
+          "5"
+        ],
+        "supported": true,
+        "evidence": [
+          {
+            "raw": "5",
+            "start": 60,
+            "end": 61,
+            "key": [
+              "number",
+              "5"
+            ]
+          }
+        ]
+      },
+      {
+        "raw": "20 Oct",
+        "start": 61,
+        "end": 67,
+        "key": [
+          "partial_date",
+          "10-20"
+        ],
+        "supported": true,
+        "evidence": [
+          {
+            "raw": "20 Oct",
+            "start": 68,
+            "end": 74,
+            "key": [
+              "partial_date",
+              "10-20"
+            ]
+          }
+        ]
+      },
+      {
+        "raw": "24 Oct",
+        "start": 71,
+        "end": 77,
+        "key": [
+          "partial_date",
+          "10-24"
+        ],
+        "supported": true,
+        "evidence": [
+          {
+            "raw": "24 Oct",
+            "start": 78,
+            "end": 84,
+            "key": [
+              "partial_date",
+              "10-24"
+            ]
+          }
+        ]
+      },
+      {
+        "raw": "1,800",
+        "start": 106,
+        "end": 111,
+        "key": [
+          "number",
+          "1800"
+        ],
+        "supported": true,
+        "evidence": [
+          {
+            "raw": "1,800",
+            "start": 103,
+            "end": 108,
+            "key": [
+              "number",
+              "1800"
+            ]
+          }
+        ]
+      },
+      {
+        "raw": "15 Oct",
+        "start": 143,
+        "end": 149,
+        "key": [
+          "partial_date",
+          "10-15"
+        ],
+        "supported": true,
+        "evidence": [
+          {
+            "raw": "15 Oct",
+            "start": 132,
+            "end": 138,
+            "key": [
+              "partial_date",
+              "10-15"
+            ]
+          }
+        ]
+      }
+    ],
+    "unmatched": [],
+    "manual_review": {
+      "source_sha256": "331171b1a0d91c9ea7f2c1023d63b268e1fb8d6feaa061eac4d0dc1a2bc01fbc",
+      "summary_sha256": "dc24431497b6022bb68394b7570338a7e14c45ea0ddb0d651089b12e008e03c9",
+      "unmatched": {},
+      "semantic_note": "Two sentences checked; daily quantity, service dates, total budget and confirmation deadline are distinct."
+    },
+    "evidence_scope": "subject + body only"
+  },
+  "EQ-03": {
+    "source_text": "加盟咨询\n我们想在青岛开 15 家店，首期先开 3 家，首店位置在台东步行街，面积约 45 平方米，月租金约 45,000 元。总预算 220 万元。请提供加盟方案、首期投入明细和开业时间表。",
+    "summary": "The prospect wants 15 stores in Qingdao, initially 3, with an initial site on Taidong Pedestrian Street of about 45 square metres and monthly rent of about RMB 45,000. It has a total budget of RMB 2.2 million and requests franchise terms, initial investment details and an opening timetable.",
+    "check_passed": false,
+    "source_tokens": [
+      {
+        "raw": "15",
+        "start": 13,
+        "end": 15,
+        "key": [
+          "number",
+          "15"
+        ]
+      },
+      {
+        "raw": "3",
+        "start": 24,
+        "end": 25,
+        "key": [
+          "number",
+          "3"
+        ]
+      },
+      {
+        "raw": "45 平方米",
+        "start": 43,
+        "end": 49,
+        "key": [
+          "area_m2",
+          "45"
+        ]
+      },
+      {
+        "raw": "45,000",
+        "start": 55,
+        "end": 61,
+        "key": [
+          "number",
+          "45000"
+        ]
+      },
+      {
+        "raw": "220 万",
+        "start": 68,
+        "end": 73,
+        "key": [
+          "scaled",
+          "220",
+          "ten_thousand"
+        ]
+      }
+    ],
+    "summary_tokens": [
+      {
+        "raw": "15",
+        "start": 19,
+        "end": 21,
+        "key": [
+          "number",
+          "15"
+        ],
+        "supported": true,
+        "evidence": [
+          {
+            "raw": "15",
+            "start": 13,
+            "end": 15,
+            "key": [
+              "number",
+              "15"
+            ]
+          }
+        ]
+      },
+      {
+        "raw": "3",
+        "start": 51,
+        "end": 52,
+        "key": [
+          "number",
+          "3"
+        ],
+        "supported": true,
+        "evidence": [
+          {
+            "raw": "3",
+            "start": 24,
+            "end": 25,
+            "key": [
+              "number",
+              "3"
+            ]
+          }
+        ]
+      },
+      {
+        "raw": "45 square metres",
+        "start": 113,
+        "end": 129,
+        "key": [
+          "area_m2",
+          "45"
+        ],
+        "supported": true,
+        "evidence": [
+          {
+            "raw": "45 平方米",
+            "start": 43,
+            "end": 49,
+            "key": [
+              "area_m2",
+              "45"
+            ]
+          }
+        ]
+      },
+      {
+        "raw": "45,000",
+        "start": 160,
+        "end": 166,
+        "key": [
+          "number",
+          "45000"
+        ],
+        "supported": true,
+        "evidence": [
+          {
+            "raw": "45,000",
+            "start": 55,
+            "end": 61,
+            "key": [
+              "number",
+              "45000"
+            ]
+          }
+        ]
+      },
+      {
+        "raw": "2.2 million",
+        "start": 197,
+        "end": 208,
+        "key": [
+          "scaled",
+          "2.2",
+          "million"
+        ],
+        "supported": false,
+        "evidence": []
+      }
+    ],
+    "unmatched": [
+      {
+        "raw": "2.2 million",
+        "start": 197,
+        "end": 208,
+        "key": [
+          "scaled",
+          "2.2",
+          "million"
+        ]
+      }
+    ],
+    "manual_review": {
+      "source_sha256": "dc1b95d98c1cf88effba52ee3a8b4c310d2288a933a410066a0d105f2bf187a2",
+      "summary_sha256": "aab4373bf76ac50e3806a0ef4860cf18f7a197e739433950b1d48c0be9d5d036",
+      "unmatched": {
+        "2.2 million": "conversion: 220 万元 equals RMB 2,200,000, or RMB 2.2 million; valid quantity-scale conversion, but not a direct source expression"
+      },
+      "semantic_note": "Two sentences checked; distinguishes the 15-store ambition from the initial 3 stores and retains the initial site's area, rent and budget."
+    },
+    "evidence_scope": "subject + body only"
+  },
+  "EQ-04": {
+    "source_text": "Drinks for our office opening\nWe are opening a new office next week and would like to order drinks for the ceremony. Our admin team will confirm the headcount by Friday. Can you do a mix of milk tea and fruit tea, and do you deliver to Nongsa?",
+    "summary": "The customer wants a mix of milk tea and fruit tea for an office-opening ceremony next week, with headcount to be confirmed by Friday. It asks whether delivery to Nongsa is available.",
+    "check_passed": true,
+    "source_tokens": [],
+    "summary_tokens": [],
+    "unmatched": [],
+    "manual_review": {
+      "source_sha256": "3004b055a469acf3a3eca0d41fef878f397ea91582dad3f29f7690e42f416a76",
+      "summary_sha256": "a2fc72a4c6dbac77131807bece6d602ad6d13925708cac75954f397c59cf9503",
+      "unmatched": {},
+      "semantic_note": "Two sentences checked; headcount is not yet confirmed, and Nongsa delivery is a question rather than a promise."
+    },
+    "evidence_scope": "subject + body only"
+  },
+  "EQ-05": {
+    "source_text": "Fresh milk supply offer\nWe can supply fresh milk at 5,000 L per week, 3.6% fat, at MYR 4.20 per litre. For an annual contract we offer 18% off. Protein stays above 3.2 g per 100 mL. Delivery 3 times a week.",
+    "summary": "The supplier offers 5,000 L of fresh milk per week at MYR 4.20 per litre, with 3.6% fat and protein above 3.2 g per 100 mL. It offers an 18% discount for an annual contract and delivery 3 times a week.",
+    "check_passed": true,
+    "source_tokens": [
+      {
+        "raw": "5,000",
+        "start": 52,
+        "end": 57,
+        "key": [
+          "number",
+          "5000"
+        ]
+      },
+      {
+        "raw": "3.6%",
+        "start": 70,
+        "end": 74,
+        "key": [
+          "percent",
+          "3.6"
+        ]
+      },
+      {
+        "raw": "4.20",
+        "start": 87,
+        "end": 91,
+        "key": [
+          "number",
+          "4.2"
+        ]
+      },
+      {
+        "raw": "18%",
+        "start": 135,
+        "end": 138,
+        "key": [
+          "percent",
+          "18"
+        ]
+      },
+      {
+        "raw": "3.2",
+        "start": 164,
+        "end": 167,
+        "key": [
+          "number",
+          "3.2"
+        ]
+      },
+      {
+        "raw": "100",
+        "start": 174,
+        "end": 177,
+        "key": [
+          "number",
+          "100"
+        ]
+      },
+      {
+        "raw": "3",
+        "start": 191,
+        "end": 192,
+        "key": [
+          "number",
+          "3"
+        ]
+      }
+    ],
+    "summary_tokens": [
+      {
+        "raw": "5,000",
+        "start": 20,
+        "end": 25,
+        "key": [
+          "number",
+          "5000"
+        ],
+        "supported": true,
+        "evidence": [
+          {
+            "raw": "5,000",
+            "start": 52,
+            "end": 57,
+            "key": [
+              "number",
+              "5000"
+            ]
+          }
+        ]
+      },
+      {
+        "raw": "4.20",
+        "start": 58,
+        "end": 62,
+        "key": [
+          "number",
+          "4.2"
+        ],
+        "supported": true,
+        "evidence": [
+          {
+            "raw": "4.20",
+            "start": 87,
+            "end": 91,
+            "key": [
+              "number",
+              "4.2"
+            ]
+          }
+        ]
+      },
+      {
+        "raw": "3.6%",
+        "start": 79,
+        "end": 83,
+        "key": [
+          "percent",
+          "3.6"
+        ],
+        "supported": true,
+        "evidence": [
+          {
+            "raw": "3.6%",
+            "start": 70,
+            "end": 74,
+            "key": [
+              "percent",
+              "3.6"
+            ]
+          }
+        ]
+      },
+      {
+        "raw": "3.2",
+        "start": 106,
+        "end": 109,
+        "key": [
+          "number",
+          "3.2"
+        ],
+        "supported": true,
+        "evidence": [
+          {
+            "raw": "3.2",
+            "start": 164,
+            "end": 167,
+            "key": [
+              "number",
+              "3.2"
+            ]
+          }
+        ]
+      },
+      {
+        "raw": "100",
+        "start": 116,
+        "end": 119,
+        "key": [
+          "number",
+          "100"
+        ],
+        "supported": true,
+        "evidence": [
+          {
+            "raw": "100",
+            "start": 174,
+            "end": 177,
+            "key": [
+              "number",
+              "100"
+            ]
+          }
+        ]
+      },
+      {
+        "raw": "18%",
+        "start": 137,
+        "end": 140,
+        "key": [
+          "percent",
+          "18"
+        ],
+        "supported": true,
+        "evidence": [
+          {
+            "raw": "18%",
+            "start": 135,
+            "end": 138,
+            "key": [
+              "percent",
+              "18"
+            ]
+          }
+        ]
+      },
+      {
+        "raw": "3",
+        "start": 186,
+        "end": 187,
+        "key": [
+          "number",
+          "3"
+        ],
+        "supported": true,
+        "evidence": [
+          {
+            "raw": "3",
+            "start": 191,
+            "end": 192,
+            "key": [
+              "number",
+              "3"
+            ]
+          }
+        ]
+      }
+    ],
+    "unmatched": [],
+    "manual_review": {
+      "source_sha256": "c7f0d408c86ae9d6cf0694748d097b75de4ab010a133fd8ae362306f903ab90a",
+      "summary_sha256": "56d29456c9e1b29c470036c49445ddab41376f091c2e284c10eff7d6cd7d6fc3",
+      "unmatched": {},
+      "semantic_note": "Two sentences checked; annual discount, fat percentage and minimum protein content are distinct; no discounted price is invented."
+    },
+    "evidence_scope": "subject + body only"
+  },
+  "EQ-06": {
+    "source_text": "Weekly corporate order\nEvery Monday at 9 am we would like 8 trays of 12 cups delivered to our Hanoi office, invoiced monthly. Please include an allergen list for each drink and confirm the price per tray.",
+    "summary": "The customer requests delivery of 8 trays of 12 cups to its Hanoi office every Monday at 9 am, equivalent to 96 cups per delivery, with monthly invoicing. It asks for an allergen list for each drink and confirmation of the price per tray.",
+    "check_passed": false,
+    "source_tokens": [
+      {
+        "raw": "9 am",
+        "start": 39,
+        "end": 43,
+        "key": [
+          "time",
+          "09:00"
+        ]
+      },
+      {
+        "raw": "8",
+        "start": 58,
+        "end": 59,
+        "key": [
+          "number",
+          "8"
+        ]
+      },
+      {
+        "raw": "12",
+        "start": 69,
+        "end": 71,
+        "key": [
+          "number",
+          "12"
+        ]
+      }
+    ],
+    "summary_tokens": [
+      {
+        "raw": "8",
+        "start": 34,
+        "end": 35,
+        "key": [
+          "number",
+          "8"
+        ],
+        "supported": true,
+        "evidence": [
+          {
+            "raw": "8",
+            "start": 58,
+            "end": 59,
+            "key": [
+              "number",
+              "8"
+            ]
+          }
+        ]
+      },
+      {
+        "raw": "12",
+        "start": 45,
+        "end": 47,
+        "key": [
+          "number",
+          "12"
+        ],
+        "supported": true,
+        "evidence": [
+          {
+            "raw": "12",
+            "start": 69,
+            "end": 71,
+            "key": [
+              "number",
+              "12"
+            ]
+          }
+        ]
+      },
+      {
+        "raw": "9 am",
+        "start": 89,
+        "end": 93,
+        "key": [
+          "time",
+          "09:00"
+        ],
+        "supported": true,
+        "evidence": [
+          {
+            "raw": "9 am",
+            "start": 39,
+            "end": 43,
+            "key": [
+              "time",
+              "09:00"
+            ]
+          }
+        ]
+      },
+      {
+        "raw": "96",
+        "start": 109,
+        "end": 111,
+        "key": [
+          "number",
+          "96"
+        ],
+        "supported": false,
+        "evidence": []
+      }
+    ],
+    "unmatched": [
+      {
+        "raw": "96",
+        "start": 109,
+        "end": 111,
+        "key": [
+          "number",
+          "96"
+        ]
+      }
+    ],
+    "manual_review": {
+      "source_sha256": "5549244d0c4f685806dc030ec4fdfeefc78f823f02179d2f82465261378358b5",
+      "summary_sha256": "2971e6baa5e20d96dea393054acd47511d4ca67d6523790ffbd746807d523b08",
+      "unmatched": {
+        "96": "derived: 8 trays multiplied by 12 cups per tray equals 96 cups per delivery; arithmetic is valid but 96 is not directly stated"
+      },
+      "semantic_note": "Two sentences checked; the computed 96 is explicitly described as equivalent to 8 trays of 12, not quoted as a source number."
+    },
+    "evidence_scope": "subject + body only"
+  },
+  "EQ-07": {
+    "source_text": "Order 50 cups for our new line\nOur new production line opens next month. For the first day we actually need only 5 cups for the management team. The 50 cups is for the full-team celebration later; the date is not fixed yet. Price for both please.",
+    "summary": "The customer needs only 5 cups for the management team on the initial day of its new production line next month. A later full-team celebration would need 50 cups at an unconfirmed date, and prices are requested for both orders.",
+    "check_passed": true,
+    "source_tokens": [
+      {
+        "raw": "50",
+        "start": 6,
+        "end": 8,
+        "key": [
+          "number",
+          "50"
+        ]
+      },
+      {
+        "raw": "first",
+        "start": 81,
+        "end": 86,
+        "key": [
+          "ordinal",
+          "1"
+        ]
+      },
+      {
+        "raw": "5",
+        "start": 113,
+        "end": 114,
+        "key": [
+          "number",
+          "5"
+        ]
+      },
+      {
+        "raw": "50",
+        "start": 149,
+        "end": 151,
+        "key": [
+          "number",
+          "50"
+        ]
+      }
+    ],
+    "summary_tokens": [
+      {
+        "raw": "5",
+        "start": 24,
+        "end": 25,
+        "key": [
+          "number",
+          "5"
+        ],
+        "supported": true,
+        "evidence": [
+          {
+            "raw": "5",
+            "start": 113,
+            "end": 114,
+            "key": [
+              "number",
+              "5"
+            ]
+          }
+        ]
+      },
+      {
+        "raw": "50",
+        "start": 154,
+        "end": 156,
+        "key": [
+          "number",
+          "50"
+        ],
+        "supported": true,
+        "evidence": [
+          {
+            "raw": "50",
+            "start": 6,
+            "end": 8,
+            "key": [
+              "number",
+              "50"
+            ]
+          },
+          {
+            "raw": "50",
+            "start": 149,
+            "end": 151,
+            "key": [
+              "number",
+              "50"
+            ]
+          }
+        ]
+      }
+    ],
+    "unmatched": [],
+    "manual_review": {
+      "source_sha256": "92640173742bb2ceb50948727fc62ec326eee7af97e42fb482704959582241b7",
+      "summary_sha256": "07b682144491acfdf92c8712355f8a4de7a90f188afba3e32b31e6e3a6895cda",
+      "unmatched": {},
+      "semantic_note": "Two sentences checked; 5 is for management on the initial day, while 50 belongs to a later celebration with no fixed date."
+    },
+    "evidence_scope": "subject + body only"
+  },
+  "EQ-08": {
+    "source_text": "Kiosk in our food court\nWe have a 6 m2 kiosk space available. Rent is 50,000 baht per month plus a 10% revenue share. The food court sees about 600 drink sales a day across all stalls. Interested in a Teaheart kiosk?",
+    "summary": "The prospect offers a 6 m2 kiosk with rent of 50,000 baht per month plus a 10% revenue share. It asks about a Teaheart kiosk and reports about 600 daily drink sales across all stalls in the food court.",
+    "check_passed": true,
+    "source_tokens": [
+      {
+        "raw": "6 m2",
+        "start": 34,
+        "end": 38,
+        "key": [
+          "area_m2",
+          "6"
+        ]
+      },
+      {
+        "raw": "50,000",
+        "start": 70,
+        "end": 76,
+        "key": [
+          "number",
+          "50000"
+        ]
+      },
+      {
+        "raw": "10%",
+        "start": 99,
+        "end": 102,
+        "key": [
+          "percent",
+          "10"
+        ]
+      },
+      {
+        "raw": "600",
+        "start": 144,
+        "end": 147,
+        "key": [
+          "number",
+          "600"
+        ]
+      }
+    ],
+    "summary_tokens": [
+      {
+        "raw": "6 m2",
+        "start": 22,
+        "end": 26,
+        "key": [
+          "area_m2",
+          "6"
+        ],
+        "supported": true,
+        "evidence": [
+          {
+            "raw": "6 m2",
+            "start": 34,
+            "end": 38,
+            "key": [
+              "area_m2",
+              "6"
+            ]
+          }
+        ]
+      },
+      {
+        "raw": "50,000",
+        "start": 46,
+        "end": 52,
+        "key": [
+          "number",
+          "50000"
+        ],
+        "supported": true,
+        "evidence": [
+          {
+            "raw": "50,000",
+            "start": 70,
+            "end": 76,
+            "key": [
+              "number",
+              "50000"
+            ]
+          }
+        ]
+      },
+      {
+        "raw": "10%",
+        "start": 75,
+        "end": 78,
+        "key": [
+          "percent",
+          "10"
+        ],
+        "supported": true,
+        "evidence": [
+          {
+            "raw": "10%",
+            "start": 99,
+            "end": 102,
+            "key": [
+              "percent",
+              "10"
+            ]
+          }
+        ]
+      },
+      {
+        "raw": "600",
+        "start": 143,
+        "end": 146,
+        "key": [
+          "number",
+          "600"
+        ],
+        "supported": true,
+        "evidence": [
+          {
+            "raw": "600",
+            "start": 144,
+            "end": 147,
+            "key": [
+              "number",
+              "600"
+            ]
+          }
+        ]
+      }
+    ],
+    "unmatched": [],
+    "manual_review": {
+      "source_sha256": "721af5a515580444be00da09048e4275b758a9becb396a67c9e6e109cfddd163",
+      "summary_sha256": "94004e3342dd8435487d426a8d500577dbc3d61ce4dd78ec40edf0334c8e3145",
+      "unmatched": {},
+      "semantic_note": "Two sentences checked; 600 sales refers to all food-court stalls, not expected Teaheart sales."
+    },
+    "evidence_scope": "subject + body only"
+  },
+  "EQ-09": {
+    "source_text": "校园店合作\n我们的商业街在大学城，预计一家饮品店每天可以卖 2000杯。校方要求饮品含糖量在 35 克以下。希望 2027 年 3 月前开业。请问加盟条件和首期投入是多少？",
+    "summary": "The prospect estimates that one drinks store in its university-area commercial street could sell 2,000 cups per day and says the school requires drinks to contain less than 35 grams of sugar. It aims to open before March 2027 and asks for franchise requirements and initial investment costs.",
+    "check_passed": true,
+    "source_tokens": [
+      {
+        "raw": "一",
+        "start": 19,
+        "end": 20,
+        "key": [
+          "number",
+          "1"
+        ]
+      },
+      {
+        "raw": "2000",
+        "start": 30,
+        "end": 34,
+        "key": [
+          "number",
+          "2000"
+        ]
+      },
+      {
+        "raw": "35",
+        "start": 47,
+        "end": 49,
+        "key": [
+          "number",
+          "35"
+        ]
+      },
+      {
+        "raw": "2027 年 3 月",
+        "start": 57,
+        "end": 67,
+        "key": [
+          "month_date",
+          "2027-03"
+        ]
+      }
+    ],
+    "summary_tokens": [
+      {
+        "raw": "one",
+        "start": 28,
+        "end": 31,
+        "key": [
+          "number",
+          "1"
+        ],
+        "supported": true,
+        "evidence": [
+          {
+            "raw": "一",
+            "start": 19,
+            "end": 20,
+            "key": [
+              "number",
+              "1"
+            ]
+          }
+        ]
+      },
+      {
+        "raw": "2,000",
+        "start": 97,
+        "end": 102,
+        "key": [
+          "number",
+          "2000"
+        ],
+        "supported": true,
+        "evidence": [
+          {
+            "raw": "2000",
+            "start": 30,
+            "end": 34,
+            "key": [
+              "number",
+              "2000"
+            ]
+          }
+        ]
+      },
+      {
+        "raw": "35",
+        "start": 173,
+        "end": 175,
+        "key": [
+          "number",
+          "35"
+        ],
+        "supported": true,
+        "evidence": [
+          {
+            "raw": "35",
+            "start": 47,
+            "end": 49,
+            "key": [
+              "number",
+              "35"
+            ]
+          }
+        ]
+      },
+      {
+        "raw": "March 2027",
+        "start": 215,
+        "end": 225,
+        "key": [
+          "month_date",
+          "2027-03"
+        ],
+        "supported": true,
+        "evidence": [
+          {
+            "raw": "2027 年 3 月",
+            "start": 57,
+            "end": 67,
+            "key": [
+              "month_date",
+              "2027-03"
+            ]
+          }
+        ]
+      }
+    ],
+    "unmatched": [],
+    "manual_review": {
+      "source_sha256": "696de954887f2c711fada8e7d90fc5925b05f160d36378c7f43fa148ee467b18",
+      "summary_sha256": "335987802c0243f2fb9fc91184671172d04ba4d9785bd470a65d569c84c4704f",
+      "unmatched": {},
+      "semantic_note": "Two sentences checked; 2,000 daily cups remains the prospect's estimate; sugar must be strictly below 35 g and opening before March 2027."
+    },
+    "evidence_scope": "subject + body only"
+  },
+  "EQ-10": {
+    "source_text": "Master franchise for the Philippines\nWe want to open 30 stores over 3 years. The first flagship store is 320 m2 in Cebu IT Park, with a first-store budget of PHP 1.2 million. Please send the master franchise terms.",
+    "summary": "The prospect wants 30 stores over 3 years, with an initial flagship of 320 m2 in Cebu IT Park and an initial-store budget of PHP 1.2 million. It requests master franchise terms for the Philippines.",
+    "check_passed": true,
+    "source_tokens": [
+      {
+        "raw": "30",
+        "start": 53,
+        "end": 55,
+        "key": [
+          "number",
+          "30"
+        ]
+      },
+      {
+        "raw": "3",
+        "start": 68,
+        "end": 69,
+        "key": [
+          "number",
+          "3"
+        ]
+      },
+      {
+        "raw": "first",
+        "start": 81,
+        "end": 86,
+        "key": [
+          "ordinal",
+          "1"
+        ]
+      },
+      {
+        "raw": "320 m2",
+        "start": 105,
+        "end": 111,
+        "key": [
+          "area_m2",
+          "320"
+        ]
+      },
+      {
+        "raw": "first",
+        "start": 136,
+        "end": 141,
+        "key": [
+          "ordinal",
+          "1"
+        ]
+      },
+      {
+        "raw": "1.2 million",
+        "start": 162,
+        "end": 173,
+        "key": [
+          "scaled",
+          "1.2",
+          "million"
+        ]
+      }
+    ],
+    "summary_tokens": [
+      {
+        "raw": "30",
+        "start": 19,
+        "end": 21,
+        "key": [
+          "number",
+          "30"
+        ],
+        "supported": true,
+        "evidence": [
+          {
+            "raw": "30",
+            "start": 53,
+            "end": 55,
+            "key": [
+              "number",
+              "30"
+            ]
+          }
+        ]
+      },
+      {
+        "raw": "3",
+        "start": 34,
+        "end": 35,
+        "key": [
+          "number",
+          "3"
+        ],
+        "supported": true,
+        "evidence": [
+          {
+            "raw": "3",
+            "start": 68,
+            "end": 69,
+            "key": [
+              "number",
+              "3"
+            ]
+          }
+        ]
+      },
+      {
+        "raw": "320 m2",
+        "start": 71,
+        "end": 77,
+        "key": [
+          "area_m2",
+          "320"
+        ],
+        "supported": true,
+        "evidence": [
+          {
+            "raw": "320 m2",
+            "start": 105,
+            "end": 111,
+            "key": [
+              "area_m2",
+              "320"
+            ]
+          }
+        ]
+      },
+      {
+        "raw": "1.2 million",
+        "start": 129,
+        "end": 140,
+        "key": [
+          "scaled",
+          "1.2",
+          "million"
+        ],
+        "supported": true,
+        "evidence": [
+          {
+            "raw": "1.2 million",
+            "start": 162,
+            "end": 173,
+            "key": [
+              "scaled",
+              "1.2",
+              "million"
+            ]
+          }
+        ]
+      }
+    ],
+    "unmatched": [],
+    "manual_review": {
+      "source_sha256": "52246515e2b6f3adab88c57ac78a5038da6b7105cc6faed97fe875a9ef70b75c",
+      "summary_sha256": "96aa58b8660d8cdcfc9776e3dfce3e3cb1a8f4ca2901b7e0661750d574120ff0",
+      "unmatched": {},
+      "semantic_note": "Two sentences checked; PHP 1.2 million is the initial-store budget, not a budget for all 30 stores."
+    },
+    "evidence_scope": "subject + body only"
+  },
+  "EQ-11": {
+    "source_text": "Two staff cafes, budget USD 150k\nWe want two small Teaheart counters inside our plant for about 800 staff. Our budget is around USD 150,000 and the target opening is 1 Feb 2027. Each counter should serve at least 25 cups per hour at peak.",
+    "summary": "The customer wants two small Teaheart counters inside its plant for about 800 staff, with a budget of around USD 150,000 and a target opening of 1 Feb 2027. Each counter should serve at least 25 cups per hour at peak.",
+    "check_passed": true,
+    "source_tokens": [
+      {
+        "raw": "Two",
+        "start": 0,
+        "end": 3,
+        "key": [
+          "number",
+          "2"
+        ]
+      },
+      {
+        "raw": "150k",
+        "start": 28,
+        "end": 32,
+        "key": [
+          "scaled",
+          "150",
+          "thousand"
+        ]
+      },
+      {
+        "raw": "two",
+        "start": 41,
+        "end": 44,
+        "key": [
+          "number",
+          "2"
+        ]
+      },
+      {
+        "raw": "800",
+        "start": 96,
+        "end": 99,
+        "key": [
+          "number",
+          "800"
+        ]
+      },
+      {
+        "raw": "150,000",
+        "start": 132,
+        "end": 139,
+        "key": [
+          "number",
+          "150000"
+        ]
+      },
+      {
+        "raw": "1 Feb 2027",
+        "start": 166,
+        "end": 176,
+        "key": [
+          "date",
+          "2027-02-01"
+        ]
+      },
+      {
+        "raw": "25",
+        "start": 213,
+        "end": 215,
+        "key": [
+          "number",
+          "25"
+        ]
+      }
+    ],
+    "summary_tokens": [
+      {
+        "raw": "two",
+        "start": 19,
+        "end": 22,
+        "key": [
+          "number",
+          "2"
+        ],
+        "supported": true,
+        "evidence": [
+          {
+            "raw": "Two",
+            "start": 0,
+            "end": 3,
+            "key": [
+              "number",
+              "2"
+            ]
+          },
+          {
+            "raw": "two",
+            "start": 41,
+            "end": 44,
+            "key": [
+              "number",
+              "2"
+            ]
+          }
+        ]
+      },
+      {
+        "raw": "800",
+        "start": 74,
+        "end": 77,
+        "key": [
+          "number",
+          "800"
+        ],
+        "supported": true,
+        "evidence": [
+          {
+            "raw": "800",
+            "start": 96,
+            "end": 99,
+            "key": [
+              "number",
+              "800"
+            ]
+          }
+        ]
+      },
+      {
+        "raw": "150,000",
+        "start": 113,
+        "end": 120,
+        "key": [
+          "number",
+          "150000"
+        ],
+        "supported": true,
+        "evidence": [
+          {
+            "raw": "150,000",
+            "start": 132,
+            "end": 139,
+            "key": [
+              "number",
+              "150000"
+            ]
+          }
+        ]
+      },
+      {
+        "raw": "1 Feb 2027",
+        "start": 145,
+        "end": 155,
+        "key": [
+          "date",
+          "2027-02-01"
+        ],
+        "supported": true,
+        "evidence": [
+          {
+            "raw": "1 Feb 2027",
+            "start": 166,
+            "end": 176,
+            "key": [
+              "date",
+              "2027-02-01"
+            ]
+          }
+        ]
+      },
+      {
+        "raw": "25",
+        "start": 192,
+        "end": 194,
+        "key": [
+          "number",
+          "25"
+        ],
+        "supported": true,
+        "evidence": [
+          {
+            "raw": "25",
+            "start": 213,
+            "end": 215,
+            "key": [
+              "number",
+              "25"
+            ]
+          }
+        ]
+      }
+    ],
+    "unmatched": [],
+    "manual_review": {
+      "source_sha256": "2e62cc4eaada17512501d6afa1cb99b4da23943f751484506bc6831a33068bb7",
+      "summary_sha256": "e49c7a39b270301dd2cc91221b973e292c122d6e59d78ffafc4163c23776baff",
+      "unmatched": {},
+      "semantic_note": "Two sentences checked; USD 150,000 is the stated budget for the two counters and at least 25 cups/hour applies to each counter."
+    },
+    "evidence_scope": "subject + body only"
+  },
+  "EQ-12": {
+    "source_text": "Sampling campaign\nOur canteen sells about 2,000 cups a day across 4 stalls. We would like Teaheart to run a sampling campaign where about 5% of daily cups are free samples for one month. What would this cost?",
+    "summary": "The customer reports about 2,000 daily cup sales across 4 canteen stalls and proposes free samples equal to about 5% of daily cups for one month. This implies about 100 samples per day, and the customer asks what the campaign would cost.",
+    "check_passed": false,
+    "source_tokens": [
+      {
+        "raw": "2,000",
+        "start": 42,
+        "end": 47,
+        "key": [
+          "number",
+          "2000"
+        ]
+      },
+      {
+        "raw": "4",
+        "start": 66,
+        "end": 67,
+        "key": [
+          "number",
+          "4"
+        ]
+      },
+      {
+        "raw": "5%",
+        "start": 138,
+        "end": 140,
+        "key": [
+          "percent",
+          "5"
+        ]
+      },
+      {
+        "raw": "one",
+        "start": 176,
+        "end": 179,
+        "key": [
+          "number",
+          "1"
+        ]
+      }
+    ],
+    "summary_tokens": [
+      {
+        "raw": "2,000",
+        "start": 27,
+        "end": 32,
+        "key": [
+          "number",
+          "2000"
+        ],
+        "supported": true,
+        "evidence": [
+          {
+            "raw": "2,000",
+            "start": 42,
+            "end": 47,
+            "key": [
+              "number",
+              "2000"
+            ]
+          }
+        ]
+      },
+      {
+        "raw": "4",
+        "start": 56,
+        "end": 57,
+        "key": [
+          "number",
+          "4"
+        ],
+        "supported": true,
+        "evidence": [
+          {
+            "raw": "4",
+            "start": 66,
+            "end": 67,
+            "key": [
+              "number",
+              "4"
+            ]
+          }
+        ]
+      },
+      {
+        "raw": "5%",
+        "start": 114,
+        "end": 116,
+        "key": [
+          "percent",
+          "5"
+        ],
+        "supported": true,
+        "evidence": [
+          {
+            "raw": "5%",
+            "start": 138,
+            "end": 140,
+            "key": [
+              "percent",
+              "5"
+            ]
+          }
+        ]
+      },
+      {
+        "raw": "one",
+        "start": 135,
+        "end": 138,
+        "key": [
+          "number",
+          "1"
+        ],
+        "supported": true,
+        "evidence": [
+          {
+            "raw": "one",
+            "start": 176,
+            "end": 179,
+            "key": [
+              "number",
+              "1"
+            ]
+          }
+        ]
+      },
+      {
+        "raw": "100",
+        "start": 165,
+        "end": 168,
+        "key": [
+          "number",
+          "100"
+        ],
+        "supported": false,
+        "evidence": []
+      }
+    ],
+    "unmatched": [
+      {
+        "raw": "100",
+        "start": 165,
+        "end": 168,
+        "key": [
+          "number",
+          "100"
+        ]
+      }
+    ],
+    "manual_review": {
+      "source_sha256": "5ecb98d23ca92e07afd6f91c51bdc9b4200b45d601068621512b92dce8232ad3",
+      "summary_sha256": "703b291ae14c8267abf731a921d7678ef55aa5da17552f1eabd2e03eb2727e95",
+      "unmatched": {
+        "100": "derived: about 2,000 daily cups multiplied by about 5% implies about 100 samples per day; approximate, not a monthly total or a cost quote"
+      },
+      "semantic_note": "Two sentences checked; 100 samples/day is approximate and derived; no 30-day-month assumption or campaign cost is invented."
+    },
+    "evidence_scope": "subject + body only"
+  }
+}

@@ -1,0 +1,6 @@
+﻿city,known_total_cny,missing_amount_count,finance_only_count,feishu_only_count,is_complete
+Hangzhou,11500.00,1,0,0,false
+Johor Bahru,42200.00,0,0,0,true
+Nanjing,8900.00,0,1,1,false
+Qingdao,32400.00,0,0,0,true
+Xiamen,115500.00,0,0,0,true

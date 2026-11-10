@@ -1,0 +1,12 @@
+﻿订单编号 order_no,采购项目 item,门店 store,金额 amount_cny,下单日期 order_date
+O25-001,Shopfront fit-out 门店装修,Teaheart Zhongshan Road Store,"32,000",2025/01/15
+O25-002,Kitchen equipment set 后厨设备,Teaheart KSL City JB,"30,200",2025/02/03
+O25-003,Renovation phase 1 翻新一期,Teaheart Taidong 台东店,"17,400",2025/02/20
+O25-004,Ice machine and freezers 制冰机与冰柜,Teaheart Zhongshan Road Store,"56,000",2025/03/11
+O25-005,POS and screens 收银与屏幕,Teaheart Zhongshan Road Store ,"27,500",2025-04-02
+O25-006,Tea brewing machines 煮茶机,Teaheart Wulin 武林店,,2025/04/18
+O25-007,Furniture 桌椅,Teaheart KSL City JB,"12,000",2025/05/06
+O25-008,Renovation phase 2 翻新二期,Teaheart Taidong 台东店,"15,000",2025/06/12
+O25-004,Ice machine and freezers 制冰机与冰柜,Teaheart Zhongshan Road Store,"56,000",2025/03/11
+O25-009,Signage 招牌,Teaheart Wulin 武林店,"11,500",2025/07/01
+O25-010,Delivery scooters 外卖车,Teaheart Xinjiekou 新街口店,"8,900",2025/08/22
